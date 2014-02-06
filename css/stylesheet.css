@@ -1,7 +1,16 @@
+body {
+  line-height: 1;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, section, nav {
+	display: block;
+}
 #header{
-	color: #47D58B;
 	height:50%;
 	width:800px;
 	padding:10px;
 	font-size:12px;
+	background-color:silver;
+	border-radius: 10px;
+	
 }
