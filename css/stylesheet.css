@@ -7,33 +7,41 @@ p{
 }
 
 #header{
-	width: 600px;
-	height: 20px;
 	border-color: black;
 	border-style: solid;
-
+	height:10%;
+	width:200px;
+	padding:10px;
+	font-size:12px;
+	border-radius: 10px;
 }
 #footer{
-	width: 600px;
-	height: 20px;
 	border-color: black;
 	border-style: solid;
+	border-radius: 10px;
+	padding:10px;
+	height:10%;
+	width:800px;
+	font-size: 12px;
 }
 #content{
-	width: 600px;
-	height: 80px;
+	width: 800px;
+	height: 200px;
 }
-#right{
-	width: 300px;
-	height: 80px;
+
+#aside{
 	border-color: black;
 	border-style: solid;
+	height:100%;
+	width:20%;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
 	float:right;
 }
-#left{
-	width:150px;
-	height:80px;
-	border-color: black;
-	border-style: solid;
-	float:left;
+
+html{
+	display: table;
+	margin:auto;
 }
