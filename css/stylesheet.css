@@ -5,3 +5,35 @@ p{
 p{
 	font-family: 'Lily Script One', cursive;
 }
+
+#header{
+	width: 600px;
+	height: 20px;
+	border-color: black;
+	border-style: solid;
+
+}
+#footer{
+	width: 600px;
+	height: 20px;
+	border-color: black;
+	border-style: solid;
+}
+#content{
+	width: 600px;
+	height: 80px;
+}
+#right{
+	width: 300px;
+	height: 80px;
+	border-color: black;
+	border-style: solid;
+	float:right;
+}
+#left{
+	width:150px;
+	height:80px;
+	border-color: black;
+	border-style: solid;
+	float:left;
+}
