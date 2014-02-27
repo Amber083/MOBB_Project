@@ -1,47 +1,102 @@
-p{
-	font-family: 'Rock Salt', cursive;
-} 
+article, aside, details, figcaption, figure, 
+footer, hgroup, menu, nav, section {
+	display: block;
+}
 
-p{
-	font-family: 'Lily Script One', cursive;
+body{
+	width:1096px;
+	line-height: 1;
+	background-color: #233042;
+	font-family: sans-serif; 
 }
 
 #header{
-	border-color: black;
-	border-style: solid;
-	height:10%;
-	width:200px;
-	padding:10px;
-	font-size:12px;
-	border-radius: 10px;
-}
-#footer{
-	border-color: black;
-	border-style: solid;
-	border-radius: 10px;
-	padding:10px;
-	height:10%;
-	width:800px;
-	font-size: 12px;
+	height: 100%;
+	border-radius: 30px;
+	padding: 20px;
+	background-color: #577C8C;
+	width:100%;
+
+
 }
 #content{
-	width: 800px;
-	height: 200px;
+
+	width:640px;
+	background-color: #3C8AAB;
+	border-radius: 30px;
+
 }
 
-#aside{
-	border-color: black;
-	border-style: solid;
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+aside{
 	height:100%;
-	width:20%;
+	width: 400px;
 	padding: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	border-radius: 10px;
-	float:right;
+	float: left;
+	background-color: #1F5878;
 }
+
+.sidebar_image{
+	margin-bottom: 20px;
+	border:4px solid black;
+}
+
+.article{
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height:100%;
+	border-radius: 30px;
+	background-color: #BFD5E6;
+	width:92%;
+	margin-left: 1%;
+	
+}
+
+.article_header {
+
+	font-weight: bold;
+
+}
+
+.article_image{
+	width: 100px;
+	height: 100px;
+	float:left;
+	margin:0px 15px 0px 0px;
+	border:4px solid black;
+}
+
 
 html{
 	display: table;
-	margin:auto;
+	margin: auto;
+}
+
+#footer{
+	border-radius: 30px;
+	padding:20px;
+	height:100%;
+	font-size: .8em;
+	background-color: #577C8C;
+}
+
+.float_left{
+	float:left;
+}
+
+.float_right{
+	float:right;
+}
+
+.clearboth{
+	clear: both;
 }
